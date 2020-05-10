@@ -1,0 +1,53 @@
+.featured_work {
+  padding-top: 80px;
+  margin-bottom: 102px;
+  display: flex;
+  align-items: flex-end;
+  .read_more {
+    margin-bottom: 36px;
+    display: flex;
+    align-items: flex-end;
+    @media (max-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+  @media (max-width: 568px) {
+    margin-bottom: 0;
+  }
+}
+
+.work_images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-80px);
+  img {
+    max-width: 261px;
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 980px) {
+    flex-wrap: wrap;
+    transform: translateY(-20px);
+  }
+}
+
+.image_block {
+  margin-right: 30px;
+  &:nth-child(-n + 2) {
+    max-height: 330px;
+  }
+  &:last-child {
+    margin-right: 0;
+    @media (max-width: 980px) {
+      margin: 40px 40px 20px;
+    }
+  }
+  @media (max-width: 980px) {
+    margin: 40px 40px 20px;
+  }
+}
+
+.work_block {
+  width: 100%;
+}

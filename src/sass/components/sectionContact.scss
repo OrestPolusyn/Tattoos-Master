@@ -1,0 +1,38 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.contact_form {
+  display: flex;
+  max-width: 540px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.entrence_img {
+  width: 58%;
+  position: relative;
+}
+
+.map_container {
+  align-self: center;
+}
+
+.contact_info .socials_links {
+  justify-content: flex-start;
+}
+
+.contact_info .link {
+  margin-right: 28px;
+}
+
+.contact_info .link img {
+  width: 18px;
+  height: 18px;
+}
+
+.info_block {
+  margin-bottom: 13px;
+}

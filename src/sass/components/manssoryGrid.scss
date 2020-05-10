@@ -1,0 +1,28 @@
+.mansory_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+  grid-auto-flow: dense;
+  margin-bottom: 30px;
+  @media (max-width: 568px) {
+    grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+  }
+}
+
+.grid_item {
+  max-width: 222px;
+  max-height: 222px;
+  & img {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+.big_item {
+  max-width: 455px;
+  max-height: 455px;
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+

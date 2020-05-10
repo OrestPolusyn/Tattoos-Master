@@ -1,0 +1,30 @@
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  color: $first-text-color;
+  font-size: $primery-font-size;
+  letter-spacing: 0.01em;
+  &:hover {
+    color: $hover-color;
+    cursor: pointer;
+  }
+}
+
+.about_success .link {
+  color: $hover-color;
+}
+
+.socials_links {
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: flex-end;
+  & img {
+    @media (max-width: 568px) {
+      margin-bottom: 4px;
+    }
+  }
+}

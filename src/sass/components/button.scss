@@ -1,0 +1,33 @@
+.contact {
+  position: relative;
+  width: 180px;
+  height: 48px;
+  border: 2px solid $button-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $button-color;
+  background-color: transparent;
+  text-align: left;
+  padding-left: 22px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.plus {
+  position: absolute;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #d8d8d9;
+  top: 2px;
+  right: 26px;
+}
+
+.btn_container {
+  text-align: center;
+}
